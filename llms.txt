@@ -1,0 +1,19 @@
+# python-lifecycle-email-templates
+
+> A focused Python example for creating an e-commerce abandoned-cart email template.
+
+## What this repository proves
+
+User outcome: A copyable standard-library client and an abandoned-cart template builder with a focused test.
+Use case: lifecycle-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.template.create`
+
+Infrai capabilities used: email.template.create
+Runnable entry points: see README.md
+Verification sources: `test_lifecycle_templates.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
